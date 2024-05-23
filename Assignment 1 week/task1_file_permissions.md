@@ -1,27 +1,45 @@
 # Task 1: File Permissions
 
 ## Description
-Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using `chmod`.
+Create a file named `manish.txt`, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using `chmod`.
 
 ## Instructions
-1. **Create a File**
+
+1. **Create the File**
     ```sh
-    touch myfile.txt
+    touch manish.txt
     ```
 
 2. **Assign Permissions**
-    - **Owner**: Read, write, execute
-    - **Group**: Read, execute
-    - **Others**: Read only
+    - **Owner (User)**: Read, write, execute (`rwx`)
+    - **Group**: Read, execute (`r-x`)
+    - **Others**: Read only (`r--`)
 
+    The corresponding numeric mode for these permissions is `754`:
+    - `7` (Owner): `r` (4) + `w` (2) + `x` (1) = `7`
+    - `5` (Group): `r` (4) + `-` (0) + `x` (1) = `5`
+    - `4` (Others): `r` (4) + `-` (0) + `-` (0) = `4`
+
+    Apply these permissions using `chmod`:
     ```sh
-    chmod 754 myfile.txt
+    chmod 754 manish.txt
     ```
 
 3. **Verify Permissions**
+    Use the `ls -l` command to check the permissions of the file:
     ```sh
-    ls -l myfile.txt
+    ls -l manish.txt
     ```
+    You should see an output like this:
+    ```
+    -rwxr-xr-- 1 yourusername yourgroup 0 May 23 12:00 manish.txt
+    ```
+
+    The breakdown of `-rwxr-xr--` is:
+    - `-`: File type (regular file)
+    - `rwx`: Owner permissions (read, write, execute)
+    - `r-x`: Group permissions (read, execute)
+    - `r--`: Others permissions (read)
 
 ## Resources
 - [YouTube: Understanding File Permissions](https://www.youtube.com/watch?v=iwolPf6kN-k)
