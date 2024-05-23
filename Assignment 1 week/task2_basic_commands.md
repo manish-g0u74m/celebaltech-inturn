@@ -98,21 +98,13 @@ Execute basic Linux commands to manipulate files and directories, with an emphas
     ```
 
 8. **Display File Contents**
-    - **cat filename**: Display the contents of a file.
+    - **cat > filename**: Add Content in a file.
+    ```sh
+    cat > filename
+    ```
+     - **cat filename**: Display the contents of a file.
     ```sh
     cat filename
-    ```
-    - **less filename**: View the contents of a file one screen at a time.
-    ```sh
-    less filename
-    ```
-    - **head filename**: Display the first 10 lines of a file.
-    ```sh
-    head filename
-    ```
-    - **tail filename**: Display the last 10 lines of a file.
-    ```sh
-    tail filename
     ```
 
 9. **Print Working Directory**
