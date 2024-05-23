@@ -26,8 +26,9 @@ Create a file named `manish.txt`, assign permissions (read, write, execute) to d
     ```sh
     chmod 754 manish.txt
     ```
-
-3. **Verify Permissions**
+    ![Screenshot (13)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/74e7a9ff-2b19-427e-acad-b40683653b6a)
+   
+4. **Verify Permissions**
     Use the `ls -l` command to check the permissions of the file:
     ```sh
     ls -l manish.txt
