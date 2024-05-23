@@ -34,7 +34,8 @@ Create a file named `manish.txt`, assign permissions (read, write, execute) to d
     ```
     You should see an output like this:
     ```
-    -rwxr-xr-- 1 yourusername yourgroup 0 May 23 12:00 manish.txt
+    -rwxr-xr--. 1 root root 0 May 23 14:50 manish.txt
+
     ```
 
     The breakdown of `-rwxr-xr--` is:
