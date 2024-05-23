@@ -28,7 +28,7 @@ Create a file named `manish.txt`, assign permissions (read, write, execute) to d
     ```
     ![Screenshot (13)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/74e7a9ff-2b19-427e-acad-b40683653b6a)
    
-4. **Verify Permissions**
+3. **Verify Permissions**
     Use the `ls -l` command to check the permissions of the file:
     ```sh
     ls -l manish.txt
@@ -38,7 +38,8 @@ Create a file named `manish.txt`, assign permissions (read, write, execute) to d
     -rwxr-xr--. 1 root root 0 May 23 14:50 manish.txt
 
     ```
-
+    ![Screenshot (12)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/3fcaccfe-d6d1-4c41-8e84-a55027d5c0d1)
+   
     The breakdown of `-rwxr-xr--` is:
     - `-`: File type (regular file)
     - `rwx`: Owner permissions (read, write, execute)
