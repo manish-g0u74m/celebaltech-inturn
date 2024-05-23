@@ -9,7 +9,9 @@ Create a file named `manish.txt`, assign permissions (read, write, execute) to d
     ```sh
     touch manish.txt
     ```
-![Screenshot (11)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/f9060f21-dff6-463e-aa56-f6222be30249)
+    ![Screenshot (11)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/f9060f21-dff6-463e-aa56-f6222be30249)
+
+
 2. **Assign Permissions**
     - **Owner (User)**: Read, write, execute (`rwx`)
     - **Group**: Read, execute (`r-x`)
