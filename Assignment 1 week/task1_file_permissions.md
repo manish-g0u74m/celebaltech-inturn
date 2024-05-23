@@ -8,6 +8,7 @@ Create a file, assign permissions (read, write, execute) to different user categ
     ```sh
     touch myfile.txt
     ```
+![1714814175359-certificate](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/76bc5b10-b375-48e2-beff-d95a414adde4)
 
 2. **Assign Permissions**
     - **Owner**: Read, write, execute
