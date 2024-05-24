@@ -28,13 +28,15 @@ Using the terminal, practice navigating through directories, listing file conten
     ```sh
     cd /path/to/directory
     ```
-    ![Screenshot (58)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/fdc3eabc-76a2-434b-a6b0-9c9fdc7f995d
+    ![Screenshot (58)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/fdc3eabc-76a2-434b-a6b0-9c9fdc7f995d)
 
 3. **List Directory Contents**
     - **ls**: List the files and directories in the current directory.
     ```sh
     ls
     ```
+    ![Screenshot (14)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/1dd8fe4c-63c1-40a7-97aa-915d6501e63d)
+   
     - **ls -l**: List files and directories with detailed information including permissions, number of links, owner, group, size, and modification date.
     ```sh
     ls -l
