@@ -10,20 +10,26 @@ Using the terminal, practice navigating through directories, listing file conten
     ```sh
     cd directory_name
     ```
+    ![Screenshot (30)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/85ba9d26-f83f-4a6d-9018-1aeeb088998c)
+   
     - **cd ..**: Move up one directory level.
     ```sh
     cd ..
     ```
+    ![Screenshot (32)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/37821e99-b705-4e45-84a4-78e24aa34f51)
+
+
     - **cd ~**: Change to the home directory.
     ```sh
     cd ~
     ```
+    ![Screenshot (33)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/8e3c7d68-42ff-4647-98e6-585981055b73)
     - **cd /path/to/directory**: Change to an absolute path.
     ```sh
     cd /path/to/directory
     ```
 
-2. **List Directory Contents**
+3. **List Directory Contents**
     - **ls**: List the files and directories in the current directory.
     ```sh
     ls
@@ -45,7 +51,7 @@ Using the terminal, practice navigating through directories, listing file conten
     ls -lh
     ```
 
-3. **Move Files**
+4. **Move Files**
     - **mv old_name new_name**: Rename a file or directory.
     ```sh
     mv old_name new_name
@@ -59,7 +65,7 @@ Using the terminal, practice navigating through directories, listing file conten
     mv source_directory /path/to/destination
     ```
 
-4. **Copy Files**
+5. **Copy Files**
     - **cp filename /path/to/destination**: Copy a file to a different directory.
     ```sh
     cp filename /path/to/destination
@@ -69,7 +75,7 @@ Using the terminal, practice navigating through directories, listing file conten
     cp -r source_directory /path/to/destination
     ```
 
-5. **Remove Files and Directories**
+6. **Remove Files and Directories**
     - **rm filename**: Remove a file.
     ```sh
     rm filename
@@ -79,7 +85,7 @@ Using the terminal, practice navigating through directories, listing file conten
     rm -r directory_name
     ```
 
-6. **Create Files and Directories**
+7. **Create Files and Directories**
     - **touch newfile.txt**: Create a new, empty file.
     ```sh
     touch newfile.txt
@@ -89,7 +95,7 @@ Using the terminal, practice navigating through directories, listing file conten
     mkdir new_directory
     ```
 
-7. **Display File Contents**
+8. **Display File Contents**
     - **cat filename**: Display the contents of a file.
     ```sh
     cat filename
@@ -107,19 +113,21 @@ Using the terminal, practice navigating through directories, listing file conten
     tail filename
     ```
 
-8. **Print Working Directory**
+9. **Print Working Directory**
     - **pwd**: Display the current directory.
     ```sh
     pwd
     ```
+    ![Screenshot (47)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/080b2479-418f-4ea9-9122-604a24a61a58)
 
-9. **Find Files**
+
+10. **Find Files**
     - **find /path/to/search -name filename**: Search for a file by name within a directory.
     ```sh
     find /path/to/search -name filename
     ```
 
-10. **Check Disk Usage**
+11. **Check Disk Usage**
     - **du -h /path/to/directory**: Display the disk usage of a directory and its contents in a human-readable format.
     ```sh
     du -h /path/to/directory
