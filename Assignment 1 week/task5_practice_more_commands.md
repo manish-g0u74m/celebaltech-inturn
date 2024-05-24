@@ -1,7 +1,7 @@
 # Task 5: Practice More Linux Commands
 
 ## Description
-Continue practicing with more Linux commands to enhance your proficiency.
+Continue practicing with more Linux commands to enhance proficiency.
 
 ## Instructions
 1. **Display Disk Usage**
