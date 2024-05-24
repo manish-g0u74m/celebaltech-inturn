@@ -74,8 +74,17 @@ Using the terminal, practice navigating through directories, listing file conten
     ```sh
     cp -r source_directory /path/to/destination
     ```
-
-6. **Remove Files and Directories**
+6. **Create Files and Directories**
+    - **touch newfile.txt**: Create a new, empty file.
+    ```sh
+    touch newfile.txt
+    ```
+    - **mkdir new_directory**: Create a new directory.
+    ```sh
+    mkdir new_directory
+    ```
+    
+7. **Remove Files and Directories**
     - **rm filename**: Remove a file.
     ```sh
     rm filename
@@ -85,25 +94,12 @@ Using the terminal, practice navigating through directories, listing file conten
     rm -r directory_name
     ```
 
-7. **Create Files and Directories**
-    - **touch newfile.txt**: Create a new, empty file.
-    ```sh
-    touch newfile.txt
-    ```
-    - **mkdir new_directory**: Create a new directory.
-    ```sh
-    mkdir new_directory
-    ```
-
 8. **Display File Contents**
     - **cat filename**: Display the contents of a file.
     ```sh
     cat filename
     ```
-    - **less filename**: View the contents of a file one screen at a time.
-    ```sh
-    less filename
-    ```
+   
     - **head filename**: Display the first 10 lines of a file.
     ```sh
     head filename
