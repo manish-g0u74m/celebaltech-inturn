@@ -24,39 +24,5 @@ The "Learning" directory contains subdirectories for each topic or concept I stu
 - DevOps Principles
 - Assignment: Linux
 
-### ➡️ What is DevOps?
-- Introduction to DevOps
-- History and Evolution of DevOps
-- Key Concepts and Terminology
-
-### ➡️ The Need for DevOps
-- Traditional Software Development Challenges
-- How DevOps Addresses These Challenges
-- The Impact of DevOps on Modern Software Development
-
-### ➡️ Basics of DevOps and CI/CD
-- Overview of the DevOps Lifecycle
-- Continuous Integration (CI) and Continuous Deployment (CD)
-- Tools and Practices for CI/CD
-
-### ➡️ Benefits of DevOps
-- Improved Deployment Frequency
-- Faster Time to Market
-- Lower Failure Rate of New Releases
-- Shortened Lead Time Between Fixes
-- Improved Mean Time to Recovery
-
-### ➡️ DevOps Principles
-- Collaboration and Communication
-- Automation of Processes
-- Continuous Improvement
-- Infrastructure as Code
-- Monitoring and Logging
-
-### ➡️ Assignment: Linux
-- Introduction to the Linux Operating System
-- Basic Linux Commands and Their Usage
-- Shell Scripting Fundamentals
-
 ## Conclusion ⬇️
 This repository serves as a comprehensive record of my DevOps internship at Celebal Technologies. It showcases my learning journey, the tasks I undertook, and the corresponding outputs I produced. Feel free to explore the repository to gain insights into the skills and knowledge I acquired during my DevOps internship.
