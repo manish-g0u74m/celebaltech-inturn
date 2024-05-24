@@ -66,45 +66,60 @@ Using the terminal, practice navigating through directories, listing file conten
     ```sh
     mv old_name new_name
     ```
+    ![Screenshot (64)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/7039379c-faa8-488c-bcb9-d9deef34f3f3)
+   
     - **mv filename /path/to/destination**: Move a file to a different directory.
     ```sh
     mv filename /path/to/destination
     ```
+    ![Screenshot (65)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/9a5940ea-c367-458a-bfb6-866436b4412f)
+    
     - **mv source_directory /path/to/destination**: Move a directory to a different location.
     ```sh
     mv source_directory /path/to/destination
     ```
-
-6. **Copy Files**
+    ![Screenshot (66)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/93e55d84-3011-421f-9c8d-013e1c4980b2)
+   
+7. **Copy Files**
     - **cp filename /path/to/destination**: Copy a file to a different directory.
     ```sh
     cp filename /path/to/destination
     ```
+    ![Screenshot (67)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/98ce7182-5b59-429d-89d6-c0c2e93c25ed)
+
     - **cp -r source_directory /path/to/destination**: Copy a directory and its contents recursively.
     ```sh
     cp -r source_directory /path/to/destination
     ```
-7. **Create Files and Directories**
+    ![Screenshot (68)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/ece2fb1b-d93b-4e31-9b7f-fdfe585a7e8b)
+   
+9. **Create Files and Directories**
     - **touch newfile.txt**: Create a new, empty file.
     ```sh
     touch newfile.txt
     ```
+    ![Screenshot (69)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/d6230dd9-3775-4eb0-82f9-95d2a1a84b9c)
+   
     - **mkdir new_directory**: Create a new directory.
     ```sh
     mkdir new_directory
     ```
+    ![Screenshot (71)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/0788c1f9-d1d3-4f41-829f-1d2639124418)
     
-8. **Remove Files and Directories**
+10. **Remove Files and Directories**
     - **rm filename**: Remove a file.
     ```sh
     rm filename
     ```
+    ![Screenshot (70)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/3b12aff4-91e2-4d84-b237-ee27e68628a2)
+   
     - **rm -r directory_name**: Remove a directory and its contents recursively.
     ```sh
     rm -r directory_name
     ```
+    ![Screenshot (72)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/3e05bf0b-9459-4e81-8ba4-67c2fca6e034)
 
-9. **Display File Contents**
+11. **Display File Contents**
     - **cat filename**: Display the contents of a file.
     ```sh
     cat filename
@@ -123,7 +138,7 @@ Using the terminal, practice navigating through directories, listing file conten
     ```
     ![Screenshot (75)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/eaf13ed0-f3cc-417b-a25b-3ed8e5a4541f)
 
-10. **Print Working Directory**
+12. **Print Working Directory**
     - **pwd**: Display the current directory.
     ```sh
     pwd
@@ -131,14 +146,14 @@ Using the terminal, practice navigating through directories, listing file conten
     ![Screenshot (47)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/080b2479-418f-4ea9-9122-604a24a61a58)
 
 
-11. **Find Files**
+13. **Find Files**
     - **find /path/to/search -name filename**: Search for a file by name within a directory.
     ```sh
     find /path/to/search -name filename
     ```
     ![Screenshot (57)](https://github.com/manish-g0u74m/celebaltech-inturn/assets/148465299/e63d49d9-0bc7-4457-9ac7-64054e105b4d)
 
-12. **Check Disk Usage**
+14. **Check Disk Usage**
     - **du -h /path/to/directory**: Display the disk usage of a directory and its contents in a human-readable format.
     ```sh
     du -h /path/to/directory
