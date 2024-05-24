@@ -24,4 +24,4 @@ Continue practicing with more Linux commands to enhance proficiency.
     top
     ```
 
-## No Specific Resources
+
